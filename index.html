@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VeryFirst</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" href="efg.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {font-family: "Lato", sans-serif}
+
+    </style>
+</head>
+
+<body>
+
+
+
+ <div class="w3-top">
+     <ul class="w3-navbar w3-black w3-card-2 w3-left-align">
+         <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+             <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+         </li>
+         <li><a href="https://www.facebook.com/lookstore.hn/" class="w3-hover-none w3-hover-text-grey w3-padding-large">HOME</a></li>
+         <li class="w3-hide-small"><a href="https://www.facebook.com/pg/lookstore.hn/about/?tab=page_info" class="w3-padding-large">ABOUT</a></li>
+         <li class="w3-hide-small"><a href="https://www.facebook.com/lookstore.hn/posts/" class="w3-padding-large">POSTS</a></li>
+         <li class="w3-hide-small"><a href="https://www.facebook.com/lookstore.hn/photos/" class="w3-padding-large">PRODUCTS</a></li>
+         <li class="w3-hide-small w3-dropdown-hover">
+             <a href="javascript:void(0)" class="w3-hover-none w3-padding-large" title="More">MORE <i class="fa fa-caret-down"></i></a>
+             <div class="w3-dropdown-content w3-white w3-card-4">
+                 <a href="https://www.facebook.com/lookstore.hn/videos">VIDEOS</a>
+                 <a href="https://www.facebook.com/pg/lookstore.hn/services/?ref=page_internal">SERVICE</a>
+                 <a href="https://www.facebook.com/pg/lookstore.hn/events/?ref=page_internal">EVENTS</a>
+             </div>
+         </li>
+         <li class="w3-hide-small w3-right"><a href="javascript:void(0)" class="w3-padding-large w3-hover-red"><i class="fa fa-search"></i></a></li>
+     </ul>
+ </div>
+
+ <div class="content">
+     <div class="slideshow-container">
+         <div class="mySlides fade">
+             <div class="numbertext">1 / 3</div>
+
+             <img src="../public/image/14258168_1276265685747444_1964361585287856493_o.jpg" style="height: 400px; width: 1100px">
+         </div>
+         <div class="mySlides fade">
+             <div class="numbertext">2 / 3</div>
+
+         <img src="../public/image/12243133_1057334110973937_6199430235439461107_n.jpg" style="height: 400px; width: 1100px"/>
+
+         </div>
+
+         <div class="mySlides fade">
+             <div class="numbertext">3 / 3</div>
+
+             <img src="../public/image/11659309_979789838728365_2850659232540101489_n.jpg" style="height: 400px; width: 1100px">
+
+         </div>
+
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+
+     <br>
+
+     <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+     </div>
+
+
+    <div class="bio" style="text-align: center">
+        <h2 class="shop">LOOK SHOP</h2>
+        <p class ="shop" id="ack"><i>We love fashion</i></p>
+        <p class="shop">It is all about fashion. We, young and wild people, really want to bring to all of you guys, your own style.</br><q>“You can never be overdressed or overeducated.”
+            ― Oscar Wilde</q></p>
+    </div>
+
+
+
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="../public/image/12726609_977463469037842_551495718_n.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="../public/image/12447846_1310561225637340_2002600111_n.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="../public/image/12426266_1325899417427003_347579747_n.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="../public/image/12532602_1165137130163339_527542682_n.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="../public/image/12532602_1165137130163339_527542682_n.jpg"></a>
+        </div>
+    </div>
+
+
+     <div class="contact" id="ct1">
+     <h2>CONTACT</h2>
+     <p>Are you a true shopaholic? Take a note here!</p>
+     <div class="w3-row w3-padding-32">
+         <div class="w3-col m6 w3-large w3-margin-bottom">
+             <i class="fa fa-map-marker" style="width:30px"></i> Cao Ba Quat Str, Hanoi<br>
+             <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+             <i class="fa fa-envelope" style="width:30px"> </i> Email: lookshop.team@mail.com<br>
+         </div>
+         <div class="w3-col m6">
+             <form  target="_blank">
+                 <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                     <div class="w3-half">
+                         <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                     </div>
+                     <div class="w3-half">
+                         <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                     </div>
+                 </div>
+                 <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                 <button class="w3-btn w3-section w3-right" type="submit">SEND</button>
+             </form>
+         </div>
+     </div>
+ </div>
+
+
+
+
+</div>
+
+ <script
+         src="https://code.jquery.com/jquery-3.1.1.min.js"
+         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+         crossorigin="anonymous"></script>
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src='main.js'></script>
+
+</body>
+
+</html>
